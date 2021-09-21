@@ -1,1 +1,3 @@
-export * from './timezones'
+import { Timezone, timezones } from './timezones';
+
+export { Timezone, timezones };

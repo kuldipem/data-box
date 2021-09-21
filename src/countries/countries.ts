@@ -1,8 +1,8 @@
-import { COUNTRIES } from './data'
+import { COUNTRIES } from './data';
 
 export interface Country {
-  code: string
-  name: string
+	code: string;
+	name: string;
 }
 
-export const countries: Country[] = COUNTRIES
+export const countries: Country[] = COUNTRIES;

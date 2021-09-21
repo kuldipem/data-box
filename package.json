@@ -1,5 +1,5 @@
 {
-  "name": "data-list",
+  "name": "@kuldippipaliya/data-box",
   "version": "0.0.1",
   "description": "A collection of usefull data list.",
   "main": "lib/data-list.js",

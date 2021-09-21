@@ -1,8 +1,8 @@
-import { LOCALES } from './data'
+import { LOCALES } from './data';
 
 export interface Locale {
-  locale: string
-  name: string
+	locale: string;
+	name: string;
 }
 
-export const locales: Locale[] = LOCALES
+export const locales: Locale[] = LOCALES;
