@@ -1,9 +1,10 @@
 {
 	"name": "@kuldippipaliya/data-box",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "A collection of usefull data list.",
 	"scripts": {
 		"test": "mocha 'test/**/*-test.js' && eslint src test",
+		"types": "rm -rf src/*.d.ts && npx -p typescript tsc src/*.js --declaration --allowJs --emitDeclarationOnly --outDir src",
 		"prepublishOnly": "rm -rf dist && yarn test && rollup -c"
 	},
 	"repository": {
@@ -13,7 +14,7 @@
   "homepage": "https://github.com/kuldipem/data-box",
 	"keywords": [ "data-list", "list" ],
 	"type": "module",
-	"files": [ "dist/**/*.js", "src/**/*.js", "types/**/*.d.ts" ],
+	"files": [ "dist/**/*.js", "src/**/*.js", "src/**/*.d.ts", "src/**/*.ts" ],
 	"module": "src/index.js",
 	"main": "src/index.js",
 	"jsdelivr": "dist/d3-random.min.js",
