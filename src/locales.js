@@ -1,4 +1,4 @@
-export const LOCALES = [
+const LOCALES = [
 	{ locale: 'af', name: 'Afrikaans' },
 	{ locale: 'af_NA', name: 'Afrikaans (Namibia)' },
 	{ locale: 'af_ZA', name: 'Afrikaans (South Africa)' },
@@ -563,3 +563,5 @@ export const LOCALES = [
 	{ locale: 'zu', name: 'Zulu' },
 	{ locale: 'zu_ZA', name: 'Zulu (South Africa)' }
 ];
+
+export default LOCALES;

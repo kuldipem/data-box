@@ -1,4 +1,4 @@
-export const TIMEZONES = [
+const TIMEZONES = [
 	{
 		value: 'Dateline Standard Time',
 		abbr: 'DST',
@@ -1159,3 +1159,5 @@ export const TIMEZONES = [
 		utc: [ 'Pacific/Apia' ]
 	}
 ];
+
+export default TIMEZONES;
