@@ -1,6 +1,6 @@
 {
 	"name": "@kuldippipaliya/data-box",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"description": "A collection of usefull data list.",
 	"scripts": {
 		"test": "mocha 'test/**/*-test.js' && eslint src test",
